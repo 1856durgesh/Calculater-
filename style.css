@@ -1,0 +1,52 @@
+*{
+  padding: 0px;
+  margin: 0px;
+  background-color: rgb(24, 24, 49);
+
+}
+.container{
+  border: 3px solid rgb(235, 229, 229);
+  background-color: rgb(216, 194, 165);
+ 
+  width: 450px;
+  margin: 15%;
+  border-radius: 25px;
+}
+#display{
+  height: 100px;
+  width: 85%;
+  margin-top: 50px;
+  margin-left:7.5% ;
+  margin-right:7.5%;
+  border: 2.5px solid black;
+  background-color: white;
+  border-radius: 25px;
+  color: black;
+  font-size: 45px;
+
+}
+.button-holder{
+  background-color:  rgb(216, 194, 165);;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  align-items: center;
+  margin: 30px;
+}
+.button{
+  color: white;
+  font-weight: bolder;
+  font-size: 30px;
+  height: 75px;
+  width: 89px;
+  margin: 5px;
+  border: 2.5px solid white;
+  border-radius:10px ;
+  background-color: black;
+}
+#cancle{
+  background-color: brown;
+}
+#result{
+  color: green;
+}
